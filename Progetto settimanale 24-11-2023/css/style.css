@@ -1,0 +1,227 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header .bar {
+    display: flex;
+    justify-content: space-around;
+    padding-block: 2rem;
+    background-color: #ffc017;
+    border-bottom: 1px solid black;
+}
+
+.links ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.links ul li {
+    padding-inline: 0.8rem;
+    font-weight: 600;
+}
+
+.links ul :nth-of-type(5) {
+    background-color: rgb(36, 35, 35);
+    color: white;
+    padding-block: 8px;
+    padding-inline: 16px;
+    border-radius: 40px;
+    border: none;
+}
+
+.links ul :nth-of-type(5):hover {
+    background-color: black;
+    transition: background-color 300ms linear, color 300ms linear;
+    cursor: pointer;
+}
+
+
+/*MAIN */
+
+h1 {
+    font-family: 'Spectral', serif;
+    font-size: 7rem;
+    font-weight: 600;
+}
+
+.title p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.9rem;
+    margin-top: 2rem;
+}
+
+.title button {
+    background-color: rgb(36, 35, 35);
+    color: white;
+    font-size: 1.5rem;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    border-radius: 50px;
+    margin-top: 3rem;
+    border: none;
+}
+
+.title button:hover {
+    background-color: black;
+    transition: background-color 300ms linear, color 300ms linear;
+    cursor: pointer;
+}
+
+
+.discover {
+    position: relative;
+    display: flex;
+    height: 470px;
+    /* Ho preso questa altezza dalle misure dell'imagine svg*/
+    background-color: #ffc017;
+}
+
+.title {
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+main img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* Sezione treding/Recensioni */
+
+section .sectionTrending {
+    width: 80%;
+    margin-inline: auto;
+}
+
+section .mediumTrending {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.boxPadre {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.figlio {
+    min-width: 33.333%;
+    max-width: 33.333%;
+    display: flex;
+    margin-block: 1rem;
+}
+
+.nomeUtente {
+    display: flex;
+    align-items: center;
+}
+
+.nomeUtente span {
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.data :first-child {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+.data :last-child {
+    color: grey;
+    font-weight: 800;
+    margin-top: 0.5rem;
+}
+
+.recensioni img {
+    width: 25px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.numeroRecensione {
+    font-size: 2rem;
+    margin-right: 15px;
+    color: #ced0d0;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Article */
+
+article .box {
+    min-width: 50%;
+    max-width: 50%;
+    margin-block: 2.7rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.immagineArticle {
+    width: 200px;
+}
+
+.nomeUtente2 img {
+    width: 25px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.nomeUtente2 span {
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    margin-top: 0.5rem;
+    font-weight: 900;
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nomeUtente2 p {
+    color: grey;
+    font-weight: 800;
+    margin-top: 0.5rem;
+}
+
+strong {
+    color: gray;
+    background-color: rgb(230, 226, 226);
+    padding: 0.3rem 0.3rem;
+    border-radius: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.linkEsterni {
+    position: sticky;
+    bottom: 52%;
+    top: 5%;
+}
+
+h3 {
+    font-family: 'Spectral', serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
